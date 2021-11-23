@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/ecwid-order-state-sync",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Обновление статуса заказа в Ecwid на основе статуса заказа из МойСклад",
   "files": [
     "build/src/"
@@ -14,7 +14,11 @@
     "type": "git",
     "url": "https://github.com/wmakeev/ecwid-order-state-sync.git"
   },
-  "keywords": ["ecwid", "moysklad", "automation"],
+  "keywords": [
+    "ecwid",
+    "moysklad",
+    "automation"
+  ],
   "scripts": {
     "env:example": "npx sync-dotenv",
     "cleanup": "rm -rf build/",
