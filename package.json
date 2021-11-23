@@ -28,7 +28,7 @@
     "build:dev": "npm run lint && npm run compile:dev",
     "build": "npm run cleanup && npm run lint && npm run compile",
     "test": "npm run build && NODE_OPTIONS=--enable-source-maps node -r dotenv/config ./build/test",
-    "version": "auto-changelog",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
     "release": "np"
   },
   "engines": {
@@ -55,6 +55,7 @@
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@typescript-eslint/typescript-estree": "^5.4.0",
+    "auto-changelog": "^2.3.0",
     "dotenv": "^10.0.0",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
