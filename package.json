@@ -32,8 +32,7 @@
     "arrowParens": "avoid"
   },
   "np": {
-		"yarn": false,
-		"contents": "dist"
+		"yarn": false
 	},
   "author": {
     "name": "Vitaliy V. Makeev",
