@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/ecwid-order-state-sync",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Обновление статуса заказа в Ecwid на основе статуса заказа из МойСклад",
   "files": [
     "build/src/"
@@ -32,8 +32,8 @@
     "arrowParens": "avoid"
   },
   "np": {
-		"yarn": false
-	},
+    "yarn": false
+  },
   "author": {
     "name": "Vitaliy V. Makeev",
     "email": "w.makeev@gmail.com"
